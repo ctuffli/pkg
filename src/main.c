@@ -331,8 +331,8 @@ show_repository_info(void)
 			break;
 		}
 		switch(pkg_repo_type(repo)) {
-		case REPO_PKG:
-			type = "PKG";
+		case REPO_BINARY:
+			type = "BINARY";
 		break;
 		case REPO_DEBIAN:
 			type = "DEBIAN";
