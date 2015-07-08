@@ -1328,7 +1328,7 @@ pkg_repo_enabled(struct pkg_repo *r)
 	return (r->enable);
 }
 
-type_t
+pkg_repo_type_t
 pkg_repo_type(struct pkg_repo *r)
 {
 	return (r->type);
